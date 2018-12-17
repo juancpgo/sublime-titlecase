@@ -13,7 +13,7 @@ __all__ = ['titlecase']
 __version__ = '0.5.1'
 
 SMALL = 'a|an|and|as|at|but|by|en|for|if|in|of|on|or|the|to|v\.?|via|vs\.?'
-SMALL += '|à|às|ao|aos|e|e/ou|em|o|os|ou|com|da|das|de|do|dos|na|nas|no|nos|para|por|que|sem|seu|sua'
+SMALL += '|à|às|ao|aos|e|em|o|os|ou|com|da|das|de|do|dos|na|nas|no|nos|para|por|que|sem|seu|sua'
 PUNCT = r"""!"#$%&'‘()*+,\-./:;?@[\\\]_`{|}~"""
 
 SMALL_WORDS = re.compile(r'^(%s)$' % SMALL, re.I)
